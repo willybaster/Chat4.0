@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+
+.btn-info{
+	margin-left:2% !important;
+}
+
+.form-control-chat{
+	width:10% !important;
+	margin-left:1% !important;
+	margin-bottom: 2% !important;
+}
+
+.btn-login{
+	background-color: #5bc0de !important;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<title>Chat</title>
+		<meta chartset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		
+		<div style="margin-left:5%">
+		<h1> Welcome to p-Chat </h1>
+ 
+			<div>
+				 <label for="user">Name:</label>
+				<input type="text" id="user" class="form-control form-control-chat"/>
+			</div>
+			<div>
+				<label>Message:</label>
+				<textarea id="message" class="form-control form-control-chat"></textarea>
+			</div>
+			<div>
+				<button id="btnSend" class="btn btn-info">Send</button>
+			</div>
+			<div id="conversation">	
+			</div>
+		</div>
+		<script src="js/codigo.js"></script>	
+	</body>
+</html>
